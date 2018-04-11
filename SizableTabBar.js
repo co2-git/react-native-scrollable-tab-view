@@ -18,8 +18,8 @@ const SizableTabBar = React.createClass({
         inactiveTextColor: React.PropTypes.string,
         // textStyle: Text.propTypes.style,
         // tabStyle: View.propTypes.style,
-        // renderTab: React.PropTypes.func,
-        underlineStyle: View.propTypes.style,
+        renderTab: React.PropTypes.func,
+        // underlineStyle: View.propTypes.style,
     },
 
     getDefaultProps() {
